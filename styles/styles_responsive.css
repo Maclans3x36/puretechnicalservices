@@ -1,5 +1,5 @@
 /* scaling for devices with a max screen size 480px */
-
+  @mdia (max-width :480px){
     body {
         
         overflow-x: hidden;
@@ -216,5 +216,5 @@
             margin: 0;
         }
     
-
+      }
    
