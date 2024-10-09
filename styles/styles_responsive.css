@@ -1,5 +1,5 @@
 /* scaling for devices with a max screen size 480px */
-  @mdia (max-width :480px){
+  
     body {
         
         overflow-x: hidden;
@@ -215,6 +215,26 @@
             text-align: center;
             margin: 0;
         }
+
+        /* Media queries for larger screens */
+@media (min-width: 481px) {
+  header img {
+      height: 8vh;
+      width: 20vw;
+  }
+
+  #main {
+      height: 50vh;
+  }
+
+  #main p {
+      font-size: 150%;
+  }
+
+  .flip-card {
+      width: 20%;
+  }
+}
     
-      }
+        
    
