@@ -112,6 +112,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 3em;
           }
           
           .flip-card {
